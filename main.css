@@ -30,20 +30,24 @@
   margin-top: 1rem /* 16px */;
 }
 @media (min-width: 768px) {
-  .md\:mt-6 {
+  .mt-4 {
     margin-top: 1.5rem /* 24px */;
   }
 }
 @media (min-width: 768px) {
-  .md\:hidden {
+  .mobile {
     display: none;
   }
+}
+.mobile {
+  width: 75%;
+  height: 60%;
 }
 .hidden {
   display: none;
 }
 @media (min-width: 768px) {
-  .md\:block {
+  .hidden {
     display: block;
   }
 }
